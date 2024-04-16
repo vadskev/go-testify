@@ -54,7 +54,7 @@ func TestMainHandlerWhenOk(t *testing.T) {
 		{
 			name: "Test When Wrong City",
 			param: paramArgs{
-				city:  "rostov",
+				city:  "UnExistsCity",
 				count: "2",
 			},
 
